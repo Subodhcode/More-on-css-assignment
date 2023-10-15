@@ -1,0 +1,63 @@
+/* Reset some default styles */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the navigation bar */
+nav {
+    background-color: #333;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+}
+
+.navbar li {
+    padding: 10px 20px;
+}
+
+/* Style the navigation links with different border styles */
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    border: 2px solid transparent; /* Default border style */
+    transition: border 0.3s; /* Add a smooth transition for border color change */
+}
+
+/* Different border styles for each navigation item */
+.navbar li:nth-child(1) a {
+    border-style: solid;
+    border-color: #ff6600;
+}
+
+.navbar li:nth-child(2) a {
+    border-style: dotted;
+    border-color: #0099cc;
+}
+
+.navbar li:nth-child(3) a {
+    border-style: dashed;
+    border-color: #ff3399;
+}
+
+.navbar li:nth-child(4) a {
+    border-style: double;
+    border-color: #66cc00;
+}
+
+.navbar li:nth-child(5) a {
+    border-style: groove;
+    border-color: #ff9933;
+}
+
+/* Change border color on hover */
+.navbar a:hover {
+    border-color: #fff;
+}

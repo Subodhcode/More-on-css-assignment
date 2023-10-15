@@ -1,0 +1,23 @@
+.pw{
+    margin: auto;
+    width:1000px;
+    padding: 10px;
+    
+}
+h1{
+    text-align: center;
+    font-family: Nunito Sans,sans-serif;
+}
+
+p{
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 40px;
+    font-family: Nunito Sans,sans-serif;
+}
+img{
+    text-align: center;
+    height: 100%;
+    width: 95%;
+    margin: 10px;
+}

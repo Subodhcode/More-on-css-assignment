@@ -1,0 +1,29 @@
+/* Reset some default styles */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color:#318CE7;
+}
+
+.navbar li {
+    padding: 10px 20px;
+}
+
+/* Style the navigation links */
+.navbar a {
+    color: #fff;
+    transition: color 0.3s; /* Add a smooth transition for color change */
+}
+
+/* Change text color on hover */
+.navbar a:hover {
+    color: red;
+}
